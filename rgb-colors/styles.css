@@ -1,0 +1,48 @@
+/* General styles */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(32, 31, 31);
+  background-color: rgb(23, 41, 56);
+}
+
+
+/* Containers */
+.main-container {
+  width: 30vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 3px solid whitesmoke;
+  border-radius: 25px;
+}
+
+/* RGB colors */
+.color{
+ padding: 20px;
+ margin: 10px;
+ font-size: 1.5em;
+ font-weight: bold;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+
+label, p{
+  margin: 20px;
+}
+

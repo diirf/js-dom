@@ -1,4 +1,4 @@
-## JavaScript DOM manipulation course projects
+## Projects of JavaScript DOM manipulation course
 
 These are the projects of the course *"JavaScript DOM manipulation"* by FreeCodeCamp.
 
@@ -8,5 +8,6 @@ You can check my deployed websites here:
 
 - [Hexadecimal random colors](https://hex-random-colors.onrender.com/)
 - [RGB colors](https://rgb-colors.onrender.com)
+- [Random quotes](https://my-random-quotes.onrender.com/)
 
 Enjoy it 👍

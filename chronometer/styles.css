@@ -1,0 +1,74 @@
+/* General styles */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('img/wallpaper.jpg') no-repeat center center/ cover;
+}
+
+/* Container */
+.principal-container{
+  width: 80vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.718);
+  border-radius: 10%;
+}
+
+.button-container{
+  padding: 20px;
+}
+
+/* Chronometer */
+#chronometer{
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  user-select: none;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+/* Buttons */
+.button{
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#start-pause-button.start,
+#start-pause-button.start i{
+  background-color: #647C18;
+}
+
+#start-pause-button.paused,
+#start-pause-button.paused i{
+  background-color: #a49324;
+}
+
+#restart-button{
+  background-color: #4d3f34;
+}
+
+i{
+  color: white;
+}
+
+.hide{
+  display: none;
+}

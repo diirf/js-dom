@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Styles and favicon-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>My chronometer</title>
+  </head>
+
+  <body>
+    <main class="principal-container">
+      <div class="internal-container">
+        <div id="chronometer">00:00:00</div>
+        <div class="button-container">
+          <button id="start-pause-button" class="start button">
+            <i id="play-icon" class="bi bi-play-fill"></i>
+            <i id="pause-icon" class="hide bi bi-pause-fill"></i>
+          </button>
+          <button id="restart-button" class="button">
+            <i class="bi bi-arrow-counterclockwise"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+    
+    <script src="app.js"></script>
+  </body>
+</html>

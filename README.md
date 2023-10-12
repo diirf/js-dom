@@ -6,6 +6,7 @@ If you want to do it too, this [video](www.youtube.com/watch?v=koiPxFFiqJ4) will
 
 You can check my deployed websites here:
 
+- [Pizza toppings](https://latua-pizza-preferita.onrender.com)
 - [Hexadecimal random colors](https://hex-random-colors.onrender.com/)
 - [RGB colors](https://rgb-colors.onrender.com)
 - [Random quotes](https://my-random-quotes.onrender.com/)

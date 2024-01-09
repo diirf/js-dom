@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HKQSXP39TVYQQEHD31JV6HP2
-  version: v2.2
----
-
 ## Projects of JavaScript DOM manipulation course
 
 These are the projects of the course *"JavaScript DOM manipulation"* by FreeCodeCamp.
